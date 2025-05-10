@@ -1,0 +1,23 @@
+name: voice_assistant_app
+description: A Flutter voice assistant app
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.15.0
+  speech_to_text: ^6.0.0
+  just_audio: ^0.9.33
+  path_provider: ^2.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
